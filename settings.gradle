@@ -1,0 +1,33 @@
+rootProject.name = 'amp-service-common'
+
+include ':amp-service-restmodel'
+include ':amp-jpa-entities'
+include ':amp-common-api'
+include ':amp-data-handler'
+include ':amp-business-service'
+include ':aws-pa-client-rest'
+include ':aws-pa-client-soap'
+include ':amp-ws-api'
+include ':amp-storage-api'
+include ':amp-text-processor-api'
+include ':amp-fb-restfb-api'
+include ':amp-fb-manager-service'
+include ':amp-youtube-api'
+include ':amp-youtube-manager-service'
+include ':amp-ui-views'
+
+project(':amp-service-restmodel').projectDir = "$rootDir/amp-service-restmodel" as File
+project(':amp-jpa-entities').projectDir = "$rootDir/amp-jpa-entities" as File
+project(':amp-common-api').projectDir = "$rootDir/amp-common-api" as File
+project(':amp-data-handler').projectDir = "$rootDir/amp-data-handler" as File
+project(':amp-business-service').projectDir = "$rootDir/amp-business-service" as File
+project(':aws-pa-client-rest').projectDir = "$rootDir/aws-pa-client-rest" as File
+project(':aws-pa-client-soap').projectDir = "$rootDir/aws-pa-client-soap" as File
+project(':amp-ws-api').projectDir = "$rootDir/amp-ws-api" as File
+project(':amp-storage-api').projectDir = "$rootDir/amp-storage-api" as File
+project(':amp-text-processor-api').projectDir = "$rootDir/amp-text-processor-api" as File
+project(':amp-fb-restfb-api').projectDir = "$rootDir/amp-fb-restfb-api" as File
+project(':amp-fb-manager-service').projectDir = "$rootDir/amp-fb-manager-service" as File
+project(':amp-youtube-api').projectDir = "$rootDir/amp-youtube-api" as File
+project(':amp-youtube-manager-service').projectDir = "$rootDir/amp-youtube-manager-service" as File
+project(':amp-ui-views').projectDir = "$rootDir/amp-ui-views" as File

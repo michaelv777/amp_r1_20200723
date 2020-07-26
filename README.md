@@ -1,1 +1,1 @@
-# amp_r1_20200723
+# allmarket
